@@ -2,9 +2,8 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    
-    <footer className="footer">
-    <div className="flex footer-content bg-gradient-to-r from-sky-500 to-indigo-600">
+    <main>
+    <div className="flex footer-content ">
     <img src="/logo.jpg" alt="Logo" className="h-20 w-20 m-2 ml-10 rounded-3xl"/>
     <h1 className="text-2xl mt-7 ml-5 font-bold">Bookify</h1>
       <ul className="footer-links"> 
@@ -16,7 +15,7 @@ export default function Footer() {
       </div>
       </ul>
     </div>
-    <div className='text-right bg-gradient-to-r from-sky-500 to-indigo-600'><p>&copy; {new Date().getFullYear()} Bookify All rights reserved.</p></div>
-  </footer>
+    <div className='text-right '><p>&copy; {new Date().getFullYear()} Bookify All rights reserved.</p></div>
+    </main>
   )
 }
