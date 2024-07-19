@@ -7,7 +7,7 @@ export default function Home() {
     <main className="bg-white text-black min-h-screen">
       <Header/>
       <div className="border-t-2 border-black"></div>
-      <div className="text-center text-4xl  font-semibold">
+      <div className="text-center text-4xl mt-5 font-semibold">
         <p>Welcome to Bookify</p>
         <p>The Premier Portal to exclusive Events, Concerts, and Conferences.</p>
       </div>
