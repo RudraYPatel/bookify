@@ -4,13 +4,13 @@ import Header from "./components/header";
 
 export default function Home() {
   return (
-    <main className="bg-white text-black min-h-screen">
+    <main className="bg-black text-white min-h-screen">
       <Header/>
-      <div className="border-t-2 border-black"></div>
       <div className="text-center text-4xl mt-5 font-semibold">
         <p>Welcome to Bookify</p>
         <p>The Premier Portal to exclusive Events, Concerts, and Conferences.</p>
       </div>
+      <div className="border-t-2 border-gray-500 m-12"></div>
       <div className="bg-black text-white p-10 mt-5 ml-20 mr-20 rounded-3xl" >
         <div className="flex justify-center rounded-3xl">
           <div className="relative h-80 ml-24 mb-5 mr-16 mt-10 rounded-3xl overflow-hidden">
@@ -80,7 +80,7 @@ export default function Home() {
       </div>
       </div>
       
-      <div className="border-t-2 border-black mt-10"></div>
+
       <Footer />
       
     </main>
