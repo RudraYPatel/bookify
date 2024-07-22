@@ -58,7 +58,7 @@ export default function Page() {
             counterIndex: 3,
           },
         ].map((event, index) => (
-          <div key={index} className="flex flex-row items-center h-28 ml-16 mt-10 rounded-3xl">
+          <div key={index} className="flex flex-row items-center h-28 ml-16 mr-16 rounded-3xl">
             <img src={event.imgSrc} alt="Event" className="h-full" />
             <div className="flex flex-row justify-between w-full">
               <div className="ml-6">
@@ -87,7 +87,7 @@ export default function Page() {
           </div>
         ))}
 
-        <div className="flex flex-row-reverse mr-24 mt-5">
+        <div className="flex flex-row-reverse mr-32 mt-5">
           <button className="bg-gradient-to-r from-green-400 to-blue-500 text-white py-3 px-6 rounded-2xl shadow-lg text-lg font-semibold hover:from-green-500 hover:to-blue-600 hover:shadow-xl transition duration-300 ease-in-out">
             Checkout
           </button>
