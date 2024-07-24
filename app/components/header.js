@@ -10,7 +10,7 @@ export default function Header() {
             <Link className="text-xl mt-9 ml-28 font-semibold hover:underline" href="../">Home</Link>
             <Link className="text-xl mt-9 ml-28 font-semibold hover:underline" href="./upcoming-events">Upcoming Events</Link>
             <Link className="text-xl mt-9 ml-28 font-semibold hover:underline" href="./about-bookify">About Bookify</Link>
-            <Link className="text-xl mt-9 ml-28 mr-10 font-semibold hover:underline" href="./upcoming-events">Profile</Link>
+            <Link className="text-xl mt-9 ml-28 mr-10 font-semibold hover:underline" href="./profile">Profile</Link>
         </div>
   </div>
   )
