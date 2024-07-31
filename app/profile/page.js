@@ -23,7 +23,7 @@ const Page = () => {
   };
 
   return (
-    <div className="min-h-screen bg- text-center bg-emerald-500">
+    <div className="min-h-screen bg- text-center bg-gray-200">
       <h1 className="text-4xl font-bold mb-12">Bookify Application</h1>
       {user ? (
         <>
