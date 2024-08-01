@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Header from '../components/header';
 import Footer from '../components/footer';
-import { addEventItem } from '../_services/checkoutdata';
+import { addEventItem } from '../_utils/checkoutdata';
 import { useUserAuth } from '../auth-context';
 
 export default function Page() {
