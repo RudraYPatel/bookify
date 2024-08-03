@@ -6,8 +6,7 @@ export default function Page() {
   return (
     <main className="bg-white text-black min-h-screen">
       <Header />
-      <div className="border-t-2 border-black"></div>
-      <div className="bg-black text-white p-10 ">
+      <div className="bg-white text-black p-10 ">
         <div className="flex flex-col md:flex-row items-start">
           <div className="relative w-full md:w-1/2">
             <img src="/ticket.jpg" alt="Event" className="w-full h-auto rounded-3xl" />
@@ -36,7 +35,6 @@ export default function Page() {
           <p className="text-lg font-normal mt-4">Thank you for choosing Bookify. We look forward to helping you discover and book your next great event!</p>
         </div>
       </div>
-      <div className="border-t-2 border-black"></div>
       <Footer />
     </main>
   );

@@ -35,6 +35,12 @@ export default function Page() {
       return;
     }
 
+    const totalTickets = counters.reduce((acc, count) => acc + count, 0);
+    if (totalTickets === 0) {
+      alert("You need to add at least one ticket to the cart before checking out.");
+      return;
+    }
+
     const events = [
       {
         id: "event1",
@@ -88,7 +94,7 @@ export default function Page() {
   return (
     <main className="text-black">
       <Header />
-      <div className="bg-black text-white">
+      <div className="bg-white text-black py-8">
         {[
           {
             imgSrc: "/event1.jpg",
@@ -119,14 +125,14 @@ export default function Page() {
             counterIndex: 3,
           },
         ].map((event, index) => (
-          <div key={index} className="flex flex-row items-center h-28 ml-16 mr-16 rounded-3xl">
-            <img src={event.imgSrc} alt="Event" className="h-full" />
-            <div className="flex flex-row justify-between w-full">
+          <div key={index} className="flex flex-row items-center h-28 ml-16 mr-16 mb-8 rounded-3xl">
+            <img src={event.imgSrc} alt="Event" className="h-full rounded-l-3xl" />
+            <div className="flex flex-row justify-between w-full bg-gray-100 p-4 rounded-r-3xl">
               <div className="ml-6">
                 <p className="text-xl font-bold">
                   {event.date}
-                  <h1>{event.title}</h1>
-                  {event.location}
+                  <h1 className="text-2xl">{event.title}</h1>
+                  <span className="text-lg">{event.location}</span>
                 </p>
               </div>
               <div className="flex flex-row items-center mr-16">
@@ -148,18 +154,16 @@ export default function Page() {
           </div>
         ))}
 
-        <div className="flex flex-row-reverse mr-32 mt-5">
+        <div className="flex flex-row-reverse mr-32 mt-8">
           <button
-            className="bg-gradient-to-r from-green-400 to-blue-500 text-white py-3 px-6 rounded-2xl shadow-lg text-lg font-semibold hover:from-green-500 hover:to-blue-600 hover:shadow-xl transition duration-300 ease-in-out"
+            className="bg-blue-600 text-white py-3 px-6 rounded-3xl shadow-lg text-lg font-semibold hover:underline transition duration-300 ease-in-out"
             onClick={handleCheckout}
           >
             Checkout
           </button>
         </div>
-        <div className="border-t-2 mt-10 border-black"></div>
       </div>
       <Footer />
     </main>
   );
 }
-

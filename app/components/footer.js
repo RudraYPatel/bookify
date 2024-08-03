@@ -10,8 +10,8 @@ export default function Footer() {
       <ul className="footer-links"> 
       <div className="flex flex-row ml-40 mt-5">
       <Link className="text-xl mt-2 ml-28 font-semibold hover:underline" href="./contact-us">Contact Us</Link>
-      <Link className="text-xl mt-2 ml-28 font-semibold hover:underline" href="./upcoming-events">Terms of Service</Link>
-      <Link className="text-xl mt-2 ml-28 font-semibold hover:underline" href="./upcoming-events">Privacy Policy</Link>
+      <Link className="text-xl mt-2 ml-28 font-semibold hover:underline" href="./terms">Terms of Service</Link>
+      <Link className="text-xl mt-2 ml-28 font-semibold hover:underline" href="./privacy">Privacy Policy</Link>
       </div>
       </ul>
       <div></div>
