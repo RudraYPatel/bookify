@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -63,19 +64,19 @@ export default function Home() {
             <div className="relative h-80 w-80 rounded-3xl overflow-hidden">
               <img src="/musicevent.jpg" alt="Event" className="h-full w-full object-cover" />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-                <a href="https://www.axs.com/events/541933/ben-platt-tickets" className="text-white text-lg font-semibold">Ben Platt Concert</a>
+                <Link href="https://www.axs.com/events/541933/ben-platt-tickets" className="text-white text-lg font-semibold">Ben Platt Concert</Link>
               </div>
             </div>
             <div className="relative h-80 w-80 rounded-3xl overflow-hidden">
               <img src="/Bridges.jpg" alt="Event" className="h-full w-full object-cover" />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-                <a href="https://www.axs.com/events/525103/7-bridges-the-ultimate-eagles-experience-tickets" className="text-white text-lg font-semibold">7 Bridges</a>
+                <Link href="https://www.axs.com/events/525103/7-bridges-the-ultimate-eagles-experience-tickets" className="text-white text-lg font-semibold">7 Bridges</Link>
               </div>
             </div>
             <div className="relative h-80 w-80 rounded-3xl overflow-hidden">
               <img src="/boys like girl.jpg" alt="Event" className="h-full w-full object-cover" />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-                <a href="https://www.axs.com/events/542520/boys-like-girls-tickets" className="text-white text-lg font-semibold">Boys Like Girls</a>
+                <Link href="https://www.axs.com/events/542520/boys-like-girls-tickets" className="text-white text-lg font-semibold">Boys Like Girls</Link>
               </div>
             </div>
           </div>

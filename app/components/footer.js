@@ -16,7 +16,7 @@ export default function Footer() {
       </ul>
       <div></div>
     </div>
-    <div className='text-right bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'><p>&copy; {new Date().getFullYear()} Bookify All rights reserved.</p></div>
+    <div className='text-right bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'><p>@ {new Date().getFullYear()} Bookify All rights reserved.</p></div>
     </main>
   )
 }
