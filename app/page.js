@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./components/footer";
 import Header from "./components/header";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,23 +13,24 @@ export default function Home() {
       </div>
       <div className="border-t-2 border-gray-500 m-12"></div>
       <div className="bg-black text-white p-10 mt-5 mx-16 rounded-3xl mb-12">
+        <p className="text-center text-3xl font-extrabold">Co-Sponsored Events</p>
         <div className="flex justify-center space-x-16 rounded-3xl">
           <div className="relative h-80 w-80 mb-5 mt-10 rounded-3xl overflow-hidden">
             <img src="/rodeo.jpg" alt="Event" className="h-full w-full object-cover" />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-              <a href="https://www.calgarystampede.com/" className="text-white text-lg font-semibold">Rodeo Show</a>
+              <Link href="https://www.calgarystampede.com/" className="text-white text-lg font-semibold">Rodeo Show</Link>
             </div>
           </div>
           <div className="relative h-80 w-80 mb-5 mt-10 rounded-3xl overflow-hidden">
             <img src="/image.png" alt="Event" className="h-full w-full object-cover" />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-              <a href="https://www.adventuresinwellness.ca/" className="text-white text-lg font-semibold">Laughter Conference</a>
+              <Link href="https://www.adventuresinwellness.ca/" className="text-white text-lg font-semibold">Laughter Conference</Link>
             </div>
           </div>
         </div>
         <div className="border-t-2 border-gray-500 my-12"></div>
-        <div className="text-center mt-10 text-4xl mb-6 font-semibold">
-          <p>Just Announced</p>
+        <div className="text-center mt-10 text-4xl mb-16 font-extrabold ">
+          <p>Just Announced Events Collaborations</p>
         </div>
         <div className="flex flex-col space-y-12">
           <div className="flex justify-between mx-10">
