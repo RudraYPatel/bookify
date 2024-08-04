@@ -4,9 +4,9 @@ import Footer from '../components/footer';
 
 export default function Page() {
   return (
-    <main className="bg-white text-black min-h-screen">
+    <main className="bg-gray-500 text-black min-h-screen">
       <Header />
-      <div className="bg-white text-black p-10 ">
+      <div className="bg-gray-500 text-black p-10 ">
         <div className="flex flex-col md:flex-row items-start">
           <div className="relative w-full md:w-1/2">
             <img src="/ticket.jpg" alt="Event" className="w-full h-auto rounded-3xl" />

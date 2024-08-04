@@ -27,7 +27,7 @@ const Page = () => {
   return (
     <main>
     <Header/>
-    <div className="min-h-screen flex flex-col items-center justify-center bg-white text-white">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-500 text-black">
       <h1 className="text-5xl text-black font-bold mb-12">Bookify Application</h1>
       <div className="bg-gradient-to-r from-purple-500 to-indigo-600 text-white rounded-lg shadow-lg p-8 max-w-md w-full">
         {user ? (

@@ -5,7 +5,7 @@ import Footer from '../components/footer';
 
 export default function Page() {
   return (
-    <main className="bg-white text-black min-h-screen">
+    <main className="bg-gray-500 text-black min-h-screen">
       <Header />
       <div className="max-w-4xl mx-auto bg-gray-100 rounded-lg p-8 mt-8">
         <h1 className="text-4xl font-bold mb-6">Privacy Policy</h1>

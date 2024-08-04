@@ -95,7 +95,7 @@ export default function Page() {
   return (
     <main>
       <Header />
-      <div className="bg-white text-black p-8">
+      <div className="bg-gray-500 text-black p-8">
         <h1 className="text-3xl mb-8">Checkout</h1>
         {checkoutItems.length === 0 ? (
           <p>No items in checkout.</p>
@@ -120,7 +120,8 @@ export default function Page() {
           </div>
         )}
       </div>
-      <div className="bg-white text-black p-8">
+      <div className="border-t-2 bg-gray-500 border-black "></div>
+      <div className="bg-gray-500 text-black p-8">
         <h2 className="text-2xl mb-8">Billing Information</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-6">

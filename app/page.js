@@ -6,13 +6,13 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="bg-white text-black min-h-screen">
+    <main className="bg-gray-500 text-black min-h-screen">
       <Header />
       <div className="text-center text-4xl mt-5 font-semibold">
         <p>Welcome to Bookify</p>
         <p>The Premier Portal to Exclusive Events, Concerts, and Conferences</p>
       </div>
-      <div className="border-t-2 border-gray-500 m-12"></div>
+      <div className="border-t-2 border-black m-12"></div>
       <div className="bg-black text-white p-10 mt-5 mx-16 rounded-3xl mb-12">
         <p className="text-center text-3xl font-extrabold">Co-Sponsored Events</p>
         <div className="flex justify-center space-x-16 rounded-3xl">
@@ -29,7 +29,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="border-t-2 border-gray-500 my-12"></div>
+        <div className="border-t-2 border-black my-12"></div>
         <div className="text-center mt-10 text-4xl mb-16 font-extrabold ">
           <p>Just Announced Events Collaborations</p>
         </div>

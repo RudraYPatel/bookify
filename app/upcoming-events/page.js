@@ -94,7 +94,7 @@ export default function Page() {
   return (
     <main className="text-black">
       <Header />
-      <div className="bg-white text-black py-8">
+      <div className="bg-gray-500 text-black py-8">
         {[
           {
             imgSrc: "/event1.jpg",
@@ -127,7 +127,7 @@ export default function Page() {
         ].map((event, index) => (
           <div key={index} className="flex flex-row items-center h-28 ml-16 mr-16 mb-8 rounded-3xl">
             <img src={event.imgSrc} alt="Event" className="h-full rounded-l-3xl" />
-            <div className="flex flex-row justify-between w-full bg-gray-100 p-4 rounded-r-3xl">
+            <div className="flex flex-row justify-between w-full bg-black text-white p-4 rounded-r-3xl">
               <div className="ml-6">
                 <p className="text-xl font-bold">
                   {event.date}
@@ -137,14 +137,14 @@ export default function Page() {
               </div>
               <div className="flex flex-row items-center mr-16">
                 <button
-                  className="bg-blue-600 text-white border-none py-2 px-4 rounded-3xl hover:underline"
+                  className="bg-indigo-500	 text-white border-none py-2 px-4 rounded-3xl hover:underline"
                   onClick={() => handleIncrement(event.counterIndex)}
                 >
                   Add to Cart
                 </button>
                 <span className="ml-4 text-xl">{counters[event.counterIndex]}</span>
                 <button
-                  className="bg-red-600 text-white border-none py-2 px-4 rounded-3xl hover:underline ml-4"
+                  className="bg-indigo-800 text-white border-none py-2 px-4 rounded-3xl hover:underline ml-4"
                   onClick={() => handleDecrement(event.counterIndex)}
                 >
                   Remove from Cart
@@ -156,7 +156,7 @@ export default function Page() {
 
         <div className="flex flex-row-reverse mr-32 mt-8">
           <button
-            className="bg-blue-600 text-white py-3 px-6 rounded-3xl shadow-lg text-lg font-semibold hover:underline transition duration-300 ease-in-out"
+            className="bg-purple-600 text-white py-3 px-6 rounded-3xl shadow-lg text-lg font-semibold hover:underline transition duration-300 ease-in-out"
             onClick={handleCheckout}
           >
             Checkout

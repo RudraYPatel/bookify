@@ -6,7 +6,7 @@ import Footer from '../components/footer';
 
 export default function Page() {
   return (
-    <main className="bg-white text-black min-h-screen">
+    <main className="bg-gray-500 text-black min-h-screen">
       <Header />
       <div className="flex flex-col items-center justify-center min-h-screen p-8">
         <div className="bg-gradient-to-r from-purple-500 to-indigo-600 text-white rounded-lg shadow-lg p-8 md:p-16">

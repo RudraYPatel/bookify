@@ -33,7 +33,7 @@ export default function Page() {
   };
 
   return (
-    <main className="bg-white text-black min-h-screen flex items-center justify-center">
+    <main className="bg-gray-500 text-black min-h-screen flex items-center justify-center">
       <div className="p-8 rounded-lg shadow-lg bg-gray-300 w-full max-w-lg">
         <h2 className="text-3xl font-bold mb-6 text-center">Contact Us</h2>
         <form onSubmit={handleSubmit}>
