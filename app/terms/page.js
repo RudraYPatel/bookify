@@ -43,7 +43,7 @@ export default function Page() {
           </p>
           <h2 className="text-2xl font-semibold mb-2">User Comments</h2>
           <p className="mb-4">
-            Certain parts of this website offer the opportunity for users to post and exchange opinions, information, material and data ('Comments') in areas of the website. Comments do not reflect the views or opinions of our website, its agents, or affiliates. Comments reflect the view and opinion of the person who posts such view or opinion.
+            Certain parts of this website offer the opportunity for users to post and exchange opinions, information, material and data (Comments) in areas of the website. Comments do not reflect the views or opinions of our website, its agents, or affiliates. Comments reflect the view and opinion of the person who posts such view or opinion.
           </p>
           <h2 className="text-2xl font-semibold mb-2">Hyperlinking to our Content</h2>
             The following organizations may link to our website without prior written approval:

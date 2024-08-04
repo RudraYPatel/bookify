@@ -30,7 +30,7 @@ export default function Page() {
         </p>
         <h2 className="text-2xl font-semibold mb-2">Random Rule #4</h2>
         <p className="mb-4">
-          Users must do a little dance when they successfully update their profile. It's a celebration of personal growth!
+          Users must do a little dance when they successfully update their profile. It is a celebration of personal growth!
         </p>
         <h2 className="text-2xl font-semibold mb-2">Random Rule #5</h2>
         <p className="mb-4">
@@ -68,8 +68,8 @@ export default function Page() {
         <p className="mb-4 ml-4">
           • Communicate with you, either directly contact us
         </p>
-        </div>
-        <Footer/>
+      </div>
+      <Footer />
     </main>
-    );
-}        
+  );
+}
